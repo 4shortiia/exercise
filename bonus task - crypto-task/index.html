@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Market Dashboard: Live Quotes.</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Global Market Overview</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <div>
+        <a href="#market">Market</a>
+        <a href="#stats">Stats</a>
+        <a href="#settings">Settings</a>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Market Section -->
+      <section id="market">
+        <h2>Live Crypto Prices</h2>
+        <table class="crypto-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Price</th>
+              <th>24h Change</th>
+              <th>24h Volume</th>
+              <th>Market Cap</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td class="name">
+                <span class="icon btc">₿</span>
+                <strong>BTC</strong>
+                Bitcoin
+              </td>
+              <td><strong>87,627.99</strong></td>
+              <td class="negative">-2.67%</td>
+              <td>$41.60B</td>
+              <td>$1.75T</td>
+              <td class="actions">📊 ⚖️</td>
+            </tr>
+
+            <tr>
+              <td class="name">
+                <span class="icon eth">Ξ</span>
+                <strong>ETH</strong>
+                Ethereum
+              </td>
+              <td><strong>2,942.65</strong></td>
+              <td class="negative">-3.87%</td>
+              <td>$20.09B</td>
+              <td>$354.87B</td>
+              <td class="actions">📊 ⚖️</td>
+            </tr>
+
+            <tr>
+              <td class="name">
+                <span class="icon usdt">₮</span>
+                <strong>USDT</strong>
+                TetherUS
+              </td>
+              <td><strong>1.00</strong></td>
+              <td class="negative">-0.02%</td>
+              <td>$74.16B</td>
+              <td>$186.84B</td>
+              <td class="actions">📊 ⚖️</td>
+            </tr>
+
+            <tr>
+              <td class="name">
+                <span class="icon usdc">S</span>
+                <strong>USDC</strong>
+                USDC
+              </td>
+              <td><strong>1.00</strong></td>
+              <td class="positive">+0.01%</td>
+              <td>$18.93B</td>
+              <td>$77.12B</td>
+              <td class="actions">📊 ⚖️</td>
+            </tr>
+
+            <tr>
+              <td class="name">
+                <span class="icon sol">S</span>
+                <strong>SOL</strong>
+                Solana
+              </td>
+              <td><strong>123.03</strong></td>
+              <td class="negative">-3.50%</td>
+              <td>$3.23B</td>
+              <td>$69.31B</td>
+              <td class="actions">📊 ⚖️</td>
+            </tr>
+
+            <tr>
+              <td class="name">
+                <span class="icon trx">T</span>
+                <strong>TRX</strong>
+                TRON
+              </td>
+              <td>123.03</td>
+              <td class="positive">0.04%</td>
+              <td>$3.23B</td>
+              <td>$69.31B</td>
+              <td class="actions">📊 ⚖️</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Stats Section -->
+      <section id="stats">
+        <h2>Exchange Statistics</h2>
+
+        <h3>Active Trading Pairs</h3>
+        <ul>
+          <li>BTC / USDT</li>
+          <li>ETH / USDT</li>
+          <li>SOL / USDT</li>
+        </ul>
+
+        <h3>Top Exchanges by Volume</h3>
+        <ol>
+          <li>Binance</li>
+          <li>Coinbase</li>
+          <li>Kraken</li>
+        </ol>
+
+        <h3>Crypto Glossary</h3>
+        <dl>
+          <dt>HODL</dt>
+          <dd>Holding a crypto asset for the long term</dd>
+
+          <dt>Market Cap</dt>
+          <dd>Total value of a cryptocurrency in circulation</dd>
+        </dl>
+      </section>
+
+      <!-- Evidence Section -->
+      <section id="evidence">
+        <h2>Live Market Chart</h2>
+
+        <iframe
+          src="https://s.tradingview.com/widgetembed/?symbol=BTCUSDT&interval=15&theme=dark&style=1&locale=en"
+          width="110%"
+          height="400"
+          frameborder="0"
+          title="
+        ETH Live Char"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+
+    <!-- Aside -->
+    <aside>
+      <p>🚨 Breaking News: Bitcoin surges past $43,000 amid ETF optimism.</p>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Global Digital Exchange</p>
+      <a href="https://coinmarketcap.com" target="_blank">CoinMarketCap</a>
+    </footer>
+  </body>
+</html>
