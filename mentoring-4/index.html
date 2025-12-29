@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentoring 4</title>
+  </head>
+  <body>
+    <header><h1>Travel Reservation Form</h1></header>
+    <main>
+      <section class="reservation form">
+        <div style="max-width: fit-content">
+          <form action="submit" method="post">
+            <fieldset class="personal information">
+              <legend>Personal Information</legend>
+              <label for="name">Full Name:</label>
+              <input type="full-name" id="name" name="full-name" />
+              <br />
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" />
+              <br />
+              <label for="phone">Phone:</label>
+              <input type="phone" name="phone" id="phone" />
+              <br />
+            </fieldset>
+
+            <fieldset>
+              <legend>Travel Information</legend>
+              <label for="package">Select Package:</label>
+              <select name="packae" id="package">
+                <option value="package-1">Package 1</option>
+                <option value="package-2">Package 2</option>
+              </select>
+              <br />
+              <label for="destination">Destination:</label>
+              <input type="destination" id="destination" name="destination" />
+            </fieldset>
+
+            <fieldset>
+              <label for="date">Arrival Date:</label>
+              <input type="date" name="date" id="date" />
+              <br />
+
+              <label for="date">Departure Date:</label>
+              <input type="date" name="date" id="date" />
+            </fieldset>
+
+            <fieldset>
+              <label for="people">Number of People:</label>
+              <br />
+              <input type="text" id="people" />
+            </fieldset>
+
+            <button>submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

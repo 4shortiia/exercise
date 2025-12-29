@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mentoring 4.1</title>
+  </head>
+  <body>
+    <header>
+      <h1>Job Application Form</h1>
+    </header>
+
+    <main>
+      <section class="application-form">
+        <div style="max-width: fit-content">
+          <form enctype="multipart/form-data" method="post">
+            <fieldset>
+              <legend>Persoal Details:</legend>
+              <label for="name">Full Name:</label>
+              <input type="name" name="full-name" id="name" placeholder="Your Name" />
+              <br />
+              <br />
+
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" placeholder="example@email.com" />
+              <br />
+              <br />
+
+              <label for="phone">Phone:</label>
+              <input type="tel" name="phone" id="phone" placeholder="(+995) 5XX XX XX XX" />
+            </fieldset>
+
+            <fieldset>
+              <legend>Job Details</legend>
+              <label for="position">Position Applied For</label>
+              <select name="position" id="position">
+                <option value="frontend">Frontend Developer</option>
+                <option value="backend">Backend Developer</option>
+                <option value="fullstack">Full Stack Developer</option>
+              </select>
+            </fieldset>
+
+            <fieldset>
+              <legend>Experience Level:</legend>
+              <label>
+                <input type="radio" name="experience" id="junior" checked />
+                Junior
+              </label>
+
+              <label>
+                <input type="radio" name="experience" id="middle" />
+                Middle
+              </label>
+
+              <label>
+                <input type="radio" name="experience" id="senior" />
+                Senior
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Skills:</legend>
+              <label>
+                <input type="checkbox" name="skills" id="html" />
+                HTML
+              </label>
+
+              <label>
+                <input type="checkbox" name="skills" id="css" />
+                CSS
+              </label>
+
+              <label>
+                <input type="checkbox" name="skills" id="javascript" />
+                Javascript
+              </label>
+
+              <label>
+                <input type="checkbox" name="skills" id="python" />
+                Python
+              </label>
+
+              <label>
+                <input type="checkbox" name="skills" id="react" />
+                React
+              </label>
+            </fieldset>
+            <br />
+
+            <label for="resume-upload">Resume Upload:</label>
+            <br />
+            <input type="file" name="resume" id="resume-upload" accept="pdf/*" />
+            <br />
+            <br />
+
+            <label for="letter">Cover Letter:</label>
+            <br />
+
+            <textarea name="" id="letter" placeholder="Type your letter here.." rows="5"></textarea>
+            <br />
+
+            <label>
+              <input type="radio" name="accept" id="accept" />
+              I accept Terms & Conditions
+            </label>
+            <br />
+            <br />
+
+            <button>Send Application</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
